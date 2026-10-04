@@ -103,7 +103,7 @@ sequenceDiagram
     else Proveedor no disponible
         G-->>A: Error de integración
         A->>R: Registrar fallo recuperable
-        A-->>P: Sesión conservada; evaluación no disponible
+        A-->>P: Sesión conservada, evaluación no disponible
         P-->>W: Estado y opción de reintento
         W-->>U: Mostrar estado de evaluación
     end
